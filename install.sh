@@ -3,10 +3,10 @@ set -e
 
 cd ~/.wsl-setup
 
-source basics.sh
-source shell/fish.sh
-source extras/terraform.sh
-source extras/terragrunt.sh
+sh ./basic.sh
+sh shell/fish.sh
+sh extras/terraform.sh
+sh extras/terragrunt.sh
 
 cat conf-scripts/fish.conf > /.configure/fish/fish.conf
 cat conf-scripts/wsl.conf > /etc/wsl.conf

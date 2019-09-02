@@ -14,4 +14,4 @@
  
  - git clone --depth=1 https://github.com/AodhanDalton/wsl-setup.git ~/.wsl-setup
 
- - sh ~/.wsl-setup/install.sh
+ - sudo sh ~/.wsl-setup/install.sh
