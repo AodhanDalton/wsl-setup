@@ -10,6 +10,8 @@
  - Installs terraform and terragrunt tools.
 
  - Creates an alias file for fish and an wsl conf file to make /c/ route
+ 
+ - Installs the fish prompt and oh my fish with the lambda theme. Script sets this prompt as the defualt.
 <h2> How to install </h2>
  
  - git clone --depth=1 https://github.com/AodhanDalton/wsl-setup.git ~/.wsl-setup
