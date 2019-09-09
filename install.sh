@@ -5,6 +5,7 @@ cd ~/.wsl-setup
 
 sh ./basic.sh
 sh shell/fish.sh
+sh shell/fish-conf.sh
 sh extras/terraform.sh
 sh extras/terragrunt.sh
 
