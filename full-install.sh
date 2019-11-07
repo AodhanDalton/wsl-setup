@@ -34,12 +34,7 @@ setx.exe WSLENV "USERPROFILE/p"
 # Installing fish
 sudo apt-get install fish -y
 
-#break
-
-fish
-
 chsh -s /usr/bin/fish
-#break
 
 dir=~/.config/fish
 if [ ! -d $dir ]
@@ -108,7 +103,7 @@ generateResolvConf = true' | sudo tee /etc/wsl.conf
 
 
 echo "¬(*_*¬) Installed successfully ¬(*_*¬)"
-
+fish
 exit 0
 
 
