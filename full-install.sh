@@ -45,7 +45,7 @@ else
 fi
 
 # Installing omf & setting theme
-curl -L https://get.oh-my.fish | fish
+curl -L https://get.oh-my.fish
 omf install lambda
 
 # Setting up terraform
