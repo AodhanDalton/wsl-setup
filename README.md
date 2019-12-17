@@ -17,6 +17,7 @@
     - `code .` To open current folder tree in a new vs code window
 
 - Vim, Code editor built into linux alot faster than vs code however less visual
+    - [My vim setup](https://github.com/AodhanDalton/vim-setup)
     - `vim {filename}`
     - [vim commands](https://vim.rtorr.com/)
     
