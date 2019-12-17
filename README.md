@@ -7,7 +7,7 @@
 
  - This repo contains a shell scripts for setting up my wsl environment.
 
- <h2> What other tools I use with WSL <h2>
+ <h2> What other tools I use with WSL </h2>
  
  - Docker Desktop
     - [Docker Desktop Download](https://www.docker.com/products/docker-desktop)
