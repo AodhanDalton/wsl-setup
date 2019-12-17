@@ -1,38 +1,8 @@
+#!/bin/sh
 #######################################################################
 #                       Aodhan Dalton
-#                   Full wsl setup v 0.3
+#                   installing omf and alias' v 0.1
 #######################################################################
-
-#!/bin/sh
-set -x
-
-# Install basic packages
-sudo apt update
-sudo apt upgrade -y
-
-#break
-#check if the packages are previously installed if not install them
-dpkg -l | grep -qw docker || sudo apt-get install docker -y
-dpkg -l | grep -qw docker.io || sudo apt-get install docker.io -y
-dpkg -l | grep -qw python || sudo apt-get install python -y
-dpkg -l | grep -qw python-pip || sudo apt-get install python-pip -y
-dpkg -l | grep -qw unzip || sudo apt-get install unzip -y
-dpkg -l | grep -qw direnv || sudo apt-get install direnv -y
-
-#break
-
-sudo pip install awscli
-
-#break
-
-#run wslconfig.exe /l to get a list of all installed distros
-wslconfig.exe  /s legacy
-
-# Creating an environmental variable for the user profile
-setx.exe WSLENV "USERPROFILE/p"
-
-# Installing fish
-sudo apt-get install fish -y
 
 chsh -s /usr/bin/fish
 
@@ -82,6 +52,7 @@ alias .....="cd ../../../../"
 alias back="cd -"
 alias l="ls -al"
 alias user="cd $USERPROFILE"
+alias tm k="tmux kill-session"
 export DOCKER_HOST=tcp://localhost:2375
 
 if test -f /home/aodhan/.autojump/share/autojump/autojump.fish; . /home/aodhan/.autojump/share/autojump/autojump.fish; end' | sudo tee ~/.config/fish/config.fish
@@ -103,8 +74,4 @@ generateResolvConf = true' | sudo tee /etc/wsl.conf
 
 
 echo "¬(*_*¬) Installed successfully ¬(*_*¬)"
-fish
 exit 0
-
-
-
