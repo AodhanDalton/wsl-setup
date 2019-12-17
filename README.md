@@ -14,9 +14,16 @@
 
 - VS Code, Code editor that integrates well with wsl
     - [VS Code Download](https://code.visualstudio.com/Download)
-- `code .` To open current folder tree in a new vs code window
+    - `code .` To open current folder tree in a new vs code window
 
- 
+- Vim, Code editor built into linux alot faster than vs code however less visual
+    - `vim {filename}`
+    - [vim commands](https://vim.rtorr.com/)
+    
+- tmux, terminal multiplexer allows multiple terminals open within the same shell
+    - `sudo apt install tmux`
+    - `tmux`
+    - [tmux commands](https://tmuxcheatsheet.com/)
 
 <h2> How to install </h2>
  
