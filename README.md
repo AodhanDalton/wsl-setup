@@ -5,7 +5,7 @@
 
 <h2> Overview </h2>
 
- - This repo contains a shell scripts for setting up my wsl environment.
+ - This repo contains a set of shell scripts for setting up my wsl environment.
 
  <h2> What other tools I use with WSL </h2>
  
@@ -14,7 +14,7 @@
 
 - VS Code, Code editor that integrates well with wsl
     - [VS Code Download](https://code.visualstudio.com/Download)
-
+- `code .` To open current folder tree in a new vs code window
 
  
 
