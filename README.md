@@ -38,4 +38,4 @@
 If cursor blinks in the terminal indefinitly and there is no sign of the terminal updating, one way to resolve this issue
 is to follow the steps in figure 1.
 
-[wsl-fix](https://github.com/AodhanDalton/wsl-setup/images/fix_wsl.PNG)
+[wsl-fix](https://github.com/AodhanDalton/wsl-setup/blob/master/images/fix_wsl.PNG)
