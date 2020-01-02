@@ -34,8 +34,10 @@
  - sudo sh ~/.wsl-setup/kube-install.sh
  - sudo sh ~/.wsl-setup/omf-install.sh
 
-<h2>Troubleshooting<h2>
+<h2>Troubleshooting</h2>
+ 
 If cursor blinks in the terminal indefinitly and there is no sign of the terminal updating, one way to resolve this issue
 is to follow the steps in figure 1.
 
-[wsl-fix](https://github.com/AodhanDalton/wsl-setup/blob/master/images/fix_wsl.PNG)
+![wsl-fix](https://github.com/AodhanDalton/wsl-setup/blob/master/images/fix_wsl.PNG)
+_Figure 1._ wsl fix
