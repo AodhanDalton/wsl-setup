@@ -15,10 +15,11 @@
         dpkg -l | grep -qw docker || sudo apt-get install docker -y
         dpkg -l | grep -qw docker.io || sudo apt-get install docker.io -y
         dpkg -l | grep -qw python || sudo apt-get install python -y
-        dpkg -l | grep -qw python-pip || sudo apt-get install python-pip -y
+        dpkg -l | grep -qw python-pip || sudo apt install python-pip -y
         dpkg -l | grep -qw unzip || sudo apt-get install unzip -y
         dpkg -l | grep -qw direnv || sudo apt-get install direnv -y
 
+        pip install virtualfish
         #break
 
         sudo pip install awscli
