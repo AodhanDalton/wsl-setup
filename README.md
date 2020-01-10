@@ -1,7 +1,7 @@
 # wsl-setup for ubuntu
 
 <h4> Author: Aodhan Dalton </h4>
-<h4> Version: 0.1 </h4>
+<h4> Version: 0.51 </h4>
 
 <h2> Overview </h2>
 
