@@ -26,6 +26,12 @@
     - `tmux`
     - [tmux commands](https://tmuxcheatsheet.com/)
 
+- Firefox, web browser
+ - [firefox download](https://www.mozilla.org/en-US/firefox/download/thanks/)
+
+- DuckDuckGo, Anonymous search engine
+ - [install for firefox](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
+
 <h2> How to install </h2>
  
  - git clone --depth=1 https://github.com/AodhanDalton/wsl-setup.git ~/.wsl-setup
