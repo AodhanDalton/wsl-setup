@@ -54,6 +54,7 @@ alias l="ls -al"
 alias user="cd $USERPROFILE"
 alias tm k="tmux kill-session"
 export DOCKER_HOST=tcp://localhost:2375
+alias fixwindowsshit="find . -type f -print0 | xargs -0 dos2unix" 
 
 if test -f /home/aodhan/.autojump/share/autojump/autojump.fish; . /home/aodhan/.autojump/share/autojump/autojump.fish; end
 eval (python -m virtualfish)' | sudo tee ~/.config/fish/config.fish

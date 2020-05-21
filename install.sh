@@ -18,6 +18,7 @@
         dpkg -l | grep -qw python-pip || sudo apt install python-pip -y
         dpkg -l | grep -qw unzip || sudo apt-get install unzip -y
         dpkg -l | grep -qw direnv || sudo apt-get install direnv -y
+        dpkg -l | grep -qw direnv || sudo apt-get install dos2unix -y
 
         pip install virtualfish
         #break
